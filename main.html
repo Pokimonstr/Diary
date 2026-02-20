@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Diary - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-journal-bookmark-fill me-2"></i>
+                Diary
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="bi bi-house-door me-1"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tasks.html">
+                            <i class="bi bi-book me-1"></i>Homework
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-gear me-1"></i>Settings
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <img src="https://via.placeholder.com/40" class="rounded-circle me-2" alt="Profile">
+                    <span class="text-white d-none d-md-block">Dakota Greenaway</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <!-- Student Name -->
+        <div class="text-center student-name">
+            <h2>Dakota Greenaway (ABC_123)</h2>
+        </div>
+
+        <div class="row mt-4">
+            <!-- News Section -->
+            <div class="col-lg-6 mb-4">
+                <h3 class="section-title text-center">News</h3>
+                
+                <!-- News Item 1 -->
+                <div class="card news-card mb-3">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start">
+                            <div class="me-3">
+                                <i class="bi bi-calendar-event text-danger" style="font-size: 3rem;"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5 class="card-title">Weekends</h5>
+                                    <small class="text-muted">1 days ago</small>
+                                </div>
+                                <p class="card-text text-muted small">
+                                    Dear students, kindly be informed that there will be no lessons on 5th and 6th April at the Academy due to the holiday.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News Item 2 -->
+                <div class="card news-card mb-3">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start">
+                            <div class="me-3">
+                                <i class="bi bi-code-slash text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5 class="card-title">Programming consultations</h5>
+                                    <small class="text-muted">2 days ago</small>
+                                </div>
+                                <p class="card-text text-muted small">
+                                    This Sunday, March 26 at 1:00 pm the Academy will be holding programming consultations for first-year students.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News Item 3 -->
+                <div class="card news-card mb-3">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start">
+                            <div class="me-3">
+                                <i class="bi bi-bank text-info" style="font-size: 3rem;"></i>
+                            </div>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-start">
+                                    <h5 class="card-title">Meeting with ABC Bank</h5>
+                                    <small class="text-muted">20.03.2019</small>
+                                </div>
+                                <p class="card-text text-muted small">
+                                    On Monday, March 27 at 7:00 pm, we invite you to a business meeting with ABC Bank.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-secondary px-4">More</button>
+                </div>
+            </div>
+
+            <!-- Rewards Section -->
+            <div class="col-lg-6 mb-4">
+                <h3 class="section-title text-center">Rewards</h3>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Reward Item 1 -->
+                        <div class="reward-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <span class="text-muted small me-3" style="min-width: 80px;">20.04.2019</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="points-badge me-2">+1</span>
+                                <i class="bi bi-trophy-fill medal-icon me-2"></i>
+                                <span class="text-muted small">Class attended</span>
+                            </div>
+                        </div>
+
+                        <!-- Reward Item 2 -->
+                        <div class="reward-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <span class="text-muted small me-3" style="min-width: 80px;">19.04.2019</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="points-badge me-2">+1</span>
+                                <i class="bi bi-trophy-fill medal-icon me-2"></i>
+                                <span class="text-muted small">Class attended</span>
+                            </div>
+                        </div>
+
+                        <!-- Reward Item 3 -->
+                        <div class="reward-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <span class="text-muted small me-3" style="min-width: 80px;">18.04.2019</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="points-badge me-2">+1</span>
+                                <i class="bi bi-trophy-fill medal-icon me-2"></i>
+                                <span class="text-muted small">Class attended</span>
+                            </div>
+                        </div>
+
+                        <!-- Reward Item 4 -->
+                        <div class="reward-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <span class="text-muted small me-3" style="min-width: 80px;">17.04.2019</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="points-badge me-2">+1</span>
+                                <i class="bi bi-trophy-fill medal-icon me-2"></i>
+                                <span class="text-muted small">Class attended</span>
+                            </div>
+                        </div>
+
+                        <!-- Reward Item 5 -->
+                        <div class="reward-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <span class="text-muted small me-3" style="min-width: 80px;">16.04.2019</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="points-badge me-2">+1</span>
+                                <i class="bi bi-trophy-fill medal-icon me-2"></i>
+                                <span class="text-muted small">Class attended</span>
+                            </div>
+                        </div>
+
+                        <!-- Reward Item 6 -->
+                        <div class="reward-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <span class="text-muted small me-3" style="min-width: 80px;">15.04.2019</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="points-badge me-2">+1</span>
+                                <i class="bi bi-trophy-fill medal-icon me-2"></i>
+                                <span class="text-muted small">Class attended</span>
+                            </div>
+                        </div>
+
+                        <!-- Reward Item 7 -->
+                        <div class="reward-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <span class="text-muted small me-3" style="min-width: 80px;">14.04.2019</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="points-badge me-2">+1</span>
+                                <i class="bi bi-trophy-fill medal-icon me-2"></i>
+                                <span class="text-muted small">Class attended</span>
+                            </div>
+                        </div>
+
+                        <!-- Reward Item 8 -->
+                        <div class="reward-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <span class="text-muted small me-3" style="min-width: 80px;">13.04.2019</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="points-badge me-2">+1</span>
+                                <i class="bi bi-trophy-fill medal-icon me-2"></i>
+                                <span class="text-muted small">Class attended</span>
+                            </div>
+                        </div>
+
+                        <!-- Reward Item 9 -->
+                        <div class="reward-item d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <span class="text-muted small me-3" style="min-width: 80px;">12.04.2019</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <span class="points-badge me-2">+1</span>
+                                <i class="bi bi-trophy-fill medal-icon me-2"></i>
+                                <span class="text-muted small">Class attended</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-3">
+                    <button class="btn btn-outline-secondary px-4">More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
